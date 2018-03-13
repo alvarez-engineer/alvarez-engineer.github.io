@@ -1,6 +1,5 @@
 /* comment */
-body {
-  font-size: 15px;
+html {
   color: #FFFDFD;
   background-color: #000000;
 }
@@ -8,7 +7,6 @@ div {
   display: block;
 }
 h1 {
-  color: #F8F8FF;
   font-size: 60px;
   text-align: center;
 }
