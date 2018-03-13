@@ -1,0 +1,12 @@
+element.style {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bounceInRight {
+    animation-name: bounceInRight;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}

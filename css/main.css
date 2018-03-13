@@ -1,6 +1,11 @@
 /* comment */
 body {
+  font-size: 15px;
+  color: #FFFDFD;
   background-color: #000000;
+}
+div {
+  display: block;
 }
 h1 {
   color: #F8F8FF;
@@ -9,13 +14,12 @@ h1 {
 }
 p.center  {
   color: FloralWhite;
+  background-color: FloralWhite;
   text-align: center;
   border: 3px solid FloralWhite;
   border-radius: 5px;
 }
-i {
-  text-align: right;
-}
+
 a:link, a:visited {
     background-color: FloralWhite;
     color: black;
