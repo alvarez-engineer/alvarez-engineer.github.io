@@ -14,13 +14,11 @@ div {
   text-align: center;
 }
 h1 {
-  font-size: 60px;
-  text-align: center;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 p  {
   color: FloralWhite;
-  background-color: FloralWhite;
-  text-align: center;
   border: 3px solid FloralWhite;
   border-radius: 5px;
 }
@@ -39,3 +37,10 @@ a:hover, a:active {
     color: black;
 }
 */
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
