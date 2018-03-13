@@ -6,11 +6,14 @@ html {
 div {
   display: block;
 }
+.center {
+  text-align: center;
+}
 h1 {
   font-size: 60px;
   text-align: center;
 }
-p.center  {
+p  {
   color: FloralWhite;
   background-color: FloralWhite;
   text-align: center;
