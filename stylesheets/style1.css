@@ -1,13 +1,15 @@
+/* comment */
 body {
   background-color: black;
 }
 h1 {
-  color: white;
+  color: FloralWhite;
   font-size: 60px;
   text-align: center;
 }
 p  {
-  color: white;
+  color: FloralWhite;
   text-align: center;
-  border: 2px solid white
+  border: 3px solid FloralWhite;
+  border-radius: 5px;
 }
