@@ -3,6 +3,10 @@ html {
   color: #FFFDFD;
   background: #000000;
 }
+body{
+  background: #000000;
+  margin: 0;
+}
 div {
   display: block;
 }
