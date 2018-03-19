@@ -15,7 +15,7 @@ svg{
   stroke: #32CD32;
   stroke-dasharray: 175;
   stroke-dashoffset: 350;
-  @include animation(draw 1.4s linear);
+  @include animation(draw 1.5s linear);
   @include animation-iteration-count(infinite);
 }
 
