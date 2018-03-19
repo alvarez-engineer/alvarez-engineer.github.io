@@ -16,7 +16,8 @@ svg{
   @include animation-iteration-count(infinite);
 }
 
-@include @keyframes draw {
+
+@include keyframes(draw) {
   to{
     stroke-dashoffset: 0;
   }
