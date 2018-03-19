@@ -9,8 +9,13 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 body {
     background-color: black;
+    font-weight: lighter;
 }
 
 h1 {
+  color: white;
+}
+
+h2 {
   color: white;
 }
