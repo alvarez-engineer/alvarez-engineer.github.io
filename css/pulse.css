@@ -3,7 +3,7 @@
 
 // Just for display/demo
 body{
-  background-color: #22252C;
+  background-color: black;
 }
 svg{
   position: absolute;
@@ -12,7 +12,7 @@ svg{
 
 // The bits you want to see
 .beat-loader{
-  stroke: #E76E66;
+  stroke: #32CD32;
   stroke-dasharray: 175;
   stroke-dashoffset: 350;
   @include animation(draw 1.4s linear);
