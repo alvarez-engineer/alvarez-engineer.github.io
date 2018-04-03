@@ -1,0 +1,21 @@
+
+.word-colors{
+  color: #CC0000;
+}
+.word-colors-2{
+  color: #32CD32;
+}
+
+* {
+  box-sizing: border-box;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: gray;
+  text-align: center;
+  color: #CC0000;
+  font-size: 3em;
+}

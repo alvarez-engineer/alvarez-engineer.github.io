@@ -1,0 +1,24 @@
+@import "bourbon";
+
+body{
+  background-color: black;
+}
+svg{
+  position: absolute;
+  margin: auto;
+}
+
+.beat-loader{
+  stroke: #32CD32;
+  stroke-dasharray: 175;
+  stroke-dashoffset: 350;
+  @include animation(draw 1.5s linear);
+  @include animation-iteration-count(infinite);
+}
+
+
+@include keyframes(draw) {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
