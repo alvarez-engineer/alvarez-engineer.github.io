@@ -36,46 +36,33 @@
     </div>
   </div>
 
-  <script>
-  function myFunction() {
-      var x = document.getElementById("Demo");
-      if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-      }
-      else {
-          x.className = x.className.replace(" w3-show", "");
-      }
-      }
-  </script>
-
   <div class="page-header animated bounceInRight">
-    <div class="container" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
+    <div class="container aos-init" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
       <h1 style="font-size: 5.5vh; display:   inline-block;">Hello, my name is <b><span class="word-colors">Adrian Alvarez</span></b></h1>
         <h2 style="font-size: 4vh; line-height: 120%; letter-spacing: 1.5px">I'm a engineer <b>passionate</b> .</h2>
       </div>
     </div>
 
   <!-- About me -->
-  <div class="w3-container w3-center w3-animate-bottom" style="padding-bottom: 50px">
-    <img src="images\ProfilePic.jpg" class="img-circle img-responsive" style=" height: 33vh; display:   block; margin:  0 auto">
+<div class="container aos-init" data-aos="fade-up" data-aos-anchor-placement="top-center" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
+  <div style="padding-bottom: 50px">
+    <img src="images\ProfilePic.jpg" class="img-circle img-responsive" style="height: 26vh; display:   block; margin:  0 auto">
     </div>
-    <div class="row">
-      <div class="col-md-2">
-        <h4>About Me</h4>
-      </div>
-      <div class="col-md-10">
+    <h4><span class="word-colors">About Me</span></h4>
+
+      <div class="text-justify">
         <p style="font-size: 18px">I graduated from NC State University in May of 2017 with degrees in Biomedical and Electrical Engineering. My diverse engineering coursework and previous experiences coupled with my background in biomedical engineering allow me to bring in a unique perspective, attempting to bride the gap between man and machine. I have experience developing, implementing, and testing code in both assembly languages and C/C++/Python as well as extensive coding in MATLAB for    data mining and analyzing. I also successfully led three design teams in designing and manufacturing a wearable continuous-vitals monitoring device, an upper limb closed loop force feedback system, and an efficient micro heat-sink for a self-powered wearable biosensor. Working alongside these multidisciplinary teams of material engineers, computer engineers, chemists, and mechanical engineers has exposed me to the multiple variables and stakeholders that comprise project teams.
         My projects and hobbies can be viewed on the next pages.</p>
       </div>
-    </div>
+</div>
 
   <!-- Skills -->
-  <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-center" style="padding-bottom: 50px">
+  <div class="container aos-init" data-aos="fade-up" style="padding-bottom: 50px">
     <div class="row">
       <div class="col-md-2">
-        <h4>Skills</h4>
+        <h4><span class="word-colors">Skills</span></h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-10"></div>
         <div class="row">
           <div class="col-md-3 col-xs-6">
             <h5>Languages</h5>
@@ -96,65 +83,178 @@
               <li class="list-group-item">Circuit Design</li>
               <li class="list-group-item">Circuit Analysis</li>
               <li class="list-group-item">Soldering</li>
-              <li class="list-group-item">3D Printing</li>
-              <li class="list-group-item">3D Modeling</li>
+              <li class="list-group-item">MRI Yellow Badge</li>
               <li class="list-group-item">Building PCs</li>
-              <li class="list-group-item"></li>
+              <li class="list-group-item">Rescue Scuba Diver</li>
             </ul>
           </div>
           <div class="col-md-3 col-xs-6">
             <h5>Tools</h5>
             <ul class="list-group">
               <li class="list-group-item">Linux</li>
-              <li class="list-group-item">Eclipse</li>
               <li class="list-group-item">Matlab</li>
-              <li class="list-group-item">IAR Embedded Workbench</li>
-              <li class="list-group-item">Keil uVision5</li>
+              <li class="list-group-item">Simulink</li>
+              <li class="list-group-item">Solid Works</li>
+              <li class="list-group-item">SPSS</li>
             </ul>
           </div>
           <div class="col-md-3 col-xs-6">
-            <h5>Design</h5>
+            <h5>Courses</h5>
             <ul class="list-group">
-              <li class="list-group-item">Photoshop</li>
-              <li class="list-group-item">Premiere Pro</li>
-              <li class="list-group-item">After Effects</li>
-              <li class="list-group-item">Illustrator</li>
-              <li class="list-group-item">Material Design</li>
+              <li class="list-group-item">Signal Processing</li>
+              <li class="list-group-item">Instrumentation</li>
+              <li class="list-group-item">Linear Systems</li>
+              <li class="list-group-item">Embedded Systems</li>
+              <li class="list-group-item">New Product Development</li>
             </ul>
+          </div>
+        </div>
+
+    </div>
+  </div>
+<!-- Education -->
+<div class="container aos-init" data-aos="fade-up" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
+  <div class="row">
+      <div class="col-md-2">
+        <h4><span class="word-colors">Education</span></h4>
+      </div>
+      <div class="col-md-10"></div>
+      <div class="col-md-8">
+        <p style="font-size: 18px">
+          <h5>North Carolina State University</h5>
+          <ul class="list-group">
+          <li class="list-group-item">B.S. Biomedical Engineering</li>
+          <li class="list-group-item">B.S. Electrical Engineering</li></p>
+          </ul>
+      </div>
+      <div class="col-md-4" style="padding-bottom: 20px">
+        <img src="images\ncsu.png" class="img-responsive" style="height: 10vh; display:   block; margin:  0 auto">
+        </div>
+    </div>
+</div>
+
+<!-- Education -->
+<a name="Experience"></a>
+<div class="container" style="padding-bottom: 100px">
+      <div class="row">
+        <div class="col-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <h4><span class="word-colors">Experience</span></h4>
+        </div>
+        <div class="col-md-12">
+          <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px;">
+                <a><img src="images/mgh.jpg" width="20%" ></a>
+              </div>
+            </div>
+            <h5>Clinical Research Coordinator / Programmer </h5>
+            <p style="font-size: 18px">
+              <ul class="list-group">
+              <li class="list-group-item">Monitored brain tissue oxygenation with functional near infrared spectroscopy</li>
+              <li class="list-group-item">Analyzed behavioral data from the Psychological Test Battery (PEBL) with MATLAB and SPSS</li>
+              <li class="list-group-item">Automated data classification and checking with MATLAB, Excel, and REDCap</li>
+              <li class="list-group-item">Collaborated with pharmacist, physicians, and drug recognition experts to ensure safe and accurate procedures</li>
+              </ul>
+            </p>
+            <h5>Link</h5>
+            <p><a href="http://www.massgeneral.org/psychiatry/services/treatmentprograms.aspx?id=1949" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Center for Addiction Medicine</a></p>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
+                <a><img src="images/ncsu.png" width="20%"></a>
+              </div>
+            </div>
+            <h5>Research Coordinator</h5>
+            <p style="font-size: 18px">
+              <ul class="list-group">
+              <li class="list-group-item">Designed and developed a continuous blood pressure monitoring system</li>
+              <li class="list-group-item">Designed, programmed, and integrated a microprocessor, pressure sensors, infrared heart beat detection</li>
+              <li class="list-group-item">Designed prototype housing for device in Solid Works</li>
+              </ul>
+            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Empty</a></p>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
+                <a><img src="images/ncsu.png" width="20%"></a>
+              </div>
+            </div>
+            <h5>Research Coordinator</h5>
+            <p style="font-size: 18px">
+              <ul class="list-group">
+              <li class="list-group-item">Designed and developed closed loop force feedback system for upper limb prosthetics using force sensors</li>
+              <li class="list-group-item">Assisted in designing a musculoskeletal model, using MATLAB, to enhance 3D spatial awareness</li>
+              <li class="list-group-item">Place holder</li>
+              </ul>
+            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Biomedical Engineering</a></p>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-<a name="Experience"></a>
-<p>Experience</p>
 <a name="Projects"></a>
-<p>Projects</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Hobbies -->
 <a name="Hobbies"></a>
-<p>Hobbies</p>
+
+<div class="container" style="padding-bottom: 100px">
+      <div class="row">
+        <div class="col-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <h4><span class="word-colors-2">Hobbies</span></h4>
+        </div>
+        <div class="col-md-12">
+          <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px;">
+                <a><img src="images/scuba.jpg" width="50%" ></a>
+              </div>
+            </div>
+            <h5><span class="word-colors-2"> Suba Diving </span></h5>
+            <p style="font-size: 18px">
+            <div class="col-md-4 col-xs-4">Bliss</div>
+            <div class="col-md-4 col-xs-4">Freedom </div>
+            <div class="col-md-4 col-xs-4">Fun </div>
+            <div class="col-md-12 col-xs-12 text-justify"> I got introduced to scuba diving my freshman year of college and I was hooked. Growing up I was always a swimmer, but scuba is a different animal. You have to learn to let go, relax, don’t fight the water (it’ll win), and enjoy the freedom. The freedom from gravity, the freedom from surface pressures, the freedom from everyday stresses. Enjoy the peaceful quiet of the ocean.
+On the other hand for my rescue diver certification...</div>
+            </p>
+            <p><a href="http://www.massgeneral.org/psychiatry/services/treatmentprograms.aspx?id=1949" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Center for Addiction Medicine</a></p>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
+                <a><img src="images/ncsu.png" width="20%"></a>
+              </div>
+            </div>
+            <h5>Research Coordinator</h5>
+            <p style="font-size: 18px">
+              <ul class="list-group">
+              <li class="list-group-item">Designed and developed a continuous blood pressure monitoring system</li>
+              <li class="list-group-item">Designed, programmed, and integrated a microprocessor, pressure sensors, infrared heart beat detection</li>
+              <li class="list-group-item">Designed prototype housing for device in Solid Works</li>
+              </ul>
+            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Empty</a></p>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
+                <a><img src="images/ncsu.png" width="20%"></a>
+              </div>
+            </div>
+            <h5>Research Coordinator</h5>
+            <p style="font-size: 18px">
+              <ul class="list-group">
+              <li class="list-group-item">Designed and developed closed loop force feedback system for upper limb prosthetics using force sensors</li>
+              <li class="list-group-item">Assisted in designing a musculoskeletal model, using MATLAB, to enhance 3D spatial awareness</li>
+              <li class="list-group-item">Place holder</li>
+              </ul>
+            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Biomedical Engineering</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
