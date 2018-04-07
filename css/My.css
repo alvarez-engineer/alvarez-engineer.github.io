@@ -2,9 +2,6 @@
 .word-colors{
   color: #CC0000;
 }
-.word-colors-2{
-  color: #32CD32;
-}
 
 * {
   box-sizing: border-box;
