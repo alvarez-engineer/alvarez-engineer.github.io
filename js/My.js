@@ -1,5 +1,9 @@
-AOS.init({
-  duration: 1200,
+$(function() {
+  AOS.init();
+});
+
+$(window).on('load', function() {
+  AOS.refresh();
 });
 
 function myFunction() {

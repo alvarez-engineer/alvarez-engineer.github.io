@@ -16,7 +16,7 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 
-<style></style></head>
+ </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-gr-c-s-loaded="true">
 
@@ -30,7 +30,6 @@
   <div class="w3-dropdown-click">
     <button onclick="myFunction()" class="w3-button w3-black" data-aos="flip-left">Shortcut!</button>
     <div id="Demo" class="w3-dropdown-content w3-bar-block">
-      <a href="#Experience" class="w3-bar-item w3-button">Experience</a>
       <a href="#Projects" class="w3-bar-item w3-button">Projects</a>
       <a href="#Hobbies" class="w3-bar-item w3-button">Hobbies</a>
     </div>
@@ -39,14 +38,15 @@
   <div class="page-header animated bounceInRight">
     <div class="container aos-init" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
       <h1 style="font-size: 5.5vh; display:   inline-block;">Hello, my name is <b><span class="word-colors">Adrian Alvarez</span></b></h1>
-        <h2 style="font-size: 4vh; line-height: 120%; letter-spacing: 1.5px">I'm a engineer <b>passionate</b> .</h2>
+        <h2 style="font-size: 4vh; line-height: 120%; letter-spacing: 1.5px">I'm a Biomedical and Electrical engineer <b>passionate</b> about embedded systems, product development,  signal processing, entrepreneurship, and scuba diving.
+        </h2>
       </div>
     </div>
 
   <!-- About me -->
 <div class="container aos-init" data-aos="fade-up" data-aos-anchor-placement="top-center" style="padding-top: 15%; padding-bottom: 50px; height:100vh">
   <div style="padding-bottom: 50px">
-    <img src="images\ProfilePic.jpg" class="img-circle img-responsive" style="height: 26vh; display:   block; margin:  0 auto">
+    <img src="images\ProfilePic.jpg" class="img-circle" style="height: 35vh; display:   block; margin:  0 auto">
     </div>
     <h4><span class="word-colors">About Me</span></h4>
 
@@ -57,7 +57,7 @@
 </div>
 
   <!-- Skills -->
-  <div class="container aos-init" data-aos="fade-up" style="padding-bottom: 50px">
+  <div class="container aos-init" data-aos="fade-up" style="padding-top: 15%;padding-bottom: 50px">
     <div class="row">
       <div class="col-md-2">
         <h4><span class="word-colors">Skills</span></h4>
@@ -128,36 +128,49 @@
           </ul>
       </div>
       <div class="col-md-4" style="padding-bottom: 20px">
-        <img src="images\ncsu.png" class="img-responsive" style="height: 10vh; display:   block; margin:  0 auto">
+        <img src="images\ncsu.png"  style="height: 15vh; display:   block; margin:  0 auto">
         </div>
     </div>
+    <p><a href="images\Alvarez_Resume_3_16_18.pdf" class="hvr-bounce-to-top" target="_blank" style="padding-top: 15%; color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Resume</a></p>
+    <p><a href="http://www.massgeneral.org/psychiatry/services/treatmentprograms.aspx?id=1949&display=research" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Center for Addiction Medicine</a></p>
 </div>
 
 <!-- Education -->
-<a name="Experience"></a>
+<a name="Projects"></a>
 <div class="container" style="padding-bottom: 100px">
       <div class="row">
         <div class="col-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
-          <h4><span class="word-colors">Experience</span></h4>
+          <h4><span class="word-colors">Projects</span></h4>
         </div>
         <div class="col-md-12">
           <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
             <div class="row">
               <div class="col-md-12 col-xs-12" style="padding-bottom: 20px;">
-                <a><img src="images/mgh.jpg" width="20%" ></a>
+                <a><img src="images/Continual Care.JPG" width="80%" ></a>
               </div>
             </div>
-            <h5>Clinical Research Coordinator / Programmer </h5>
+            <h5>Continual Care </h5>
             <p style="font-size: 18px">
-              <ul class="list-group">
-              <li class="list-group-item">Monitored brain tissue oxygenation with functional near infrared spectroscopy</li>
-              <li class="list-group-item">Analyzed behavioral data from the Psychological Test Battery (PEBL) with MATLAB and SPSS</li>
-              <li class="list-group-item">Automated data classification and checking with MATLAB, Excel, and REDCap</li>
-              <li class="list-group-item">Collaborated with pharmacist, physicians, and drug recognition experts to ensure safe and accurate procedures</li>
-              </ul>
+                  In it I proposed a continuous monitoring device, specifically to aid first responders and nurses with administering vitals tests without much disruption to the patient. Dubbed
+              <span class="word-colors">"Continual Care"</span>, this wearable battery-powered device, driven by an array of sensors, was designed with the intention of introducing import
+              it into the Biomedical market. My job was to lead the design and manufacturing team. The circuit consisted of an Arduino, Infrared emitter/detectors, LED screen, and a moveable
+              tilted metal bar with two pressure sensors. Measuring the blood oxygen content was don with an IR LED and dectector. Measuring the heart rate was done as a byproduct of
+               measuring the blood pressure. Coninuous noninvasive blood pressue was a large puzzle to solve, in the end, I came up with a tilted bar with two pressure sensors. When the
+               device was strapped to the wrist  the inclined pressure sensor would be taken as a reference point while the declined section read the pressure exerted by the blood vessels.
+               This, in turn, created a blood pressure pulse wave in which the device analyzed 5-second blocks of time and output the Systolic and Diastolic values. As a final note, this
+               project was completed in conjunction with North Carolina State Univeristy's department of Entrepreneurship.
+           </p>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+            <div class="row">
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
+                <a><img src="images/ncsu.png" width="20%"></a>
+              </div>
+            </div>
+            <h5>Plant Irrigation System</h5>
+            <p style="font-size: 18px">
+                I love cooking and I love making my own tea. This lead me to one of my first automatioin/quality of life projects. The basic water irrigation system
             </p>
-            <h5>Link</h5>
-            <p><a href="http://www.massgeneral.org/psychiatry/services/treatmentprograms.aspx?id=1949" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Center for Addiction Medicine</a></p>
           </div>
           <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
             <div class="row">
@@ -165,22 +178,19 @@
                 <a><img src="images/ncsu.png" width="20%"></a>
               </div>
             </div>
-            <h5>Research Coordinator</h5>
+            <h5>Gesture Controlled Drone</h5>
             <p style="font-size: 18px">
-              <ul class="list-group">
-              <li class="list-group-item">Designed and developed a continuous blood pressure monitoring system</li>
-              <li class="list-group-item">Designed, programmed, and integrated a microprocessor, pressure sensors, infrared heart beat detection</li>
-              <li class="list-group-item">Designed prototype housing for device in Solid Works</li>
-              </ul>
-            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Empty</a></p>
+                Who doesn't like drones? Attach a GoPro.
+            </p>
           </div>
+
           <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
             <div class="row">
               <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
                 <a><img src="images/ncsu.png" width="20%"></a>
               </div>
             </div>
-            <h5>Research Coordinator</h5>
+            <h5>Python Pong or Galaga</h5>
             <p style="font-size: 18px">
               <ul class="list-group">
               <li class="list-group-item">Designed and developed closed loop force feedback system for upper limb prosthetics using force sensors</li>
@@ -189,11 +199,10 @@
               </ul>
             <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Biomedical Engineering</a></p>
           </div>
+
         </div>
       </div>
     </div>
-
-<a name="Projects"></a>
 
 <!-- Hobbies -->
 <a name="Hobbies"></a>
@@ -201,7 +210,7 @@
 <div class="container" style="padding-bottom: 100px">
       <div class="row">
         <div class="col-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
-          <h4><span class="word-colors-2">Hobbies</span></h4>
+          <h4><span class="word-colors">Hobbies</span></h4>
         </div>
         <div class="col-md-12">
           <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
@@ -210,54 +219,66 @@
                 <a><img src="images/scuba.jpg" width="50%" ></a>
               </div>
             </div>
-            <h5><span class="word-colors-2"> Suba Diving </span></h5>
+            <h5><span class="word-colors"> Suba Diving </span></h5>
             <p style="font-size: 18px">
             <div class="col-md-4 col-xs-4">Bliss</div>
             <div class="col-md-4 col-xs-4">Freedom </div>
             <div class="col-md-4 col-xs-4">Fun </div>
             <div class="col-md-12 col-xs-12 text-justify"> I got introduced to scuba diving my freshman year of college and I was hooked. Growing up I was always a swimmer, but scuba is a different animal. You have to learn to let go, relax, don’t fight the water (it’ll win), and enjoy the freedom. The freedom from gravity, the freedom from surface pressures, the freedom from everyday stresses. Enjoy the peaceful quiet of the ocean.
-On the other hand for my rescue diver certification...</div>
+                On the other hand for my rescue diver certification...
+            </div>
             </p>
             <p><a href="http://www.massgeneral.org/psychiatry/services/treatmentprograms.aspx?id=1949" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Center for Addiction Medicine</a></p>
           </div>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+
+          <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
             <div class="row">
-              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
-                <a><img src="images/ncsu.png" width="20%"></a>
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px;">
+                <a><img src="images/M_M.png" width="50%" ></a>
               </div>
             </div>
-            <h5>Research Coordinator</h5>
+            <h5><span class="word-colors"> D&D </span></h5>
             <p style="font-size: 18px">
-              <ul class="list-group">
-              <li class="list-group-item">Designed and developed a continuous blood pressure monitoring system</li>
-              <li class="list-group-item">Designed, programmed, and integrated a microprocessor, pressure sensors, infrared heart beat detection</li>
-              <li class="list-group-item">Designed prototype housing for device in Solid Works</li>
-              </ul>
-            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Empty</a></p>
+            <div class="col-md-4 col-xs-4">Nerds</div>
+            <div class="col-md-4 col-xs-4">Friends </div>
+            <div class="col-md-4 col-xs-4">Fun </div>
+            <div class="col-md-12 col-xs-12 text-justify"> I got introduced to scuba diving my freshman year of college and I was hooked. Growing up I was always a swimmer, but scuba is a different animal. You have to learn to let go, relax, don’t fight the water (it’ll win), and enjoy the freedom. The freedom from gravity, the freedom from surface pressures, the freedom from everyday stresses. Enjoy the peaceful quiet of the ocean.
+                On the other hand for my rescue diver certification...
+            </div>
+            </p>
+            <p><a href="http://mythsandmongrels.com/" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Myths & Mongrels</a></p>
           </div>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init">
+
+          <div style="padding-bottom: 40px" data-aos="fade-up" data-aos-anchor-placement="top-center" class="aos-init aos-animate">
             <div class="row">
-              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px">
-                <a><img src="images/ncsu.png" width="20%"></a>
+              <div class="col-md-12 col-xs-12" style="padding-bottom: 20px;">
+                <a><img src="images/tea.jpg" width="50%" ></a>
               </div>
             </div>
-            <h5>Research Coordinator</h5>
+            <h5><span class="word-colors"> Coffee & Tea </span></h5>
             <p style="font-size: 18px">
-              <ul class="list-group">
-              <li class="list-group-item">Designed and developed closed loop force feedback system for upper limb prosthetics using force sensors</li>
-              <li class="list-group-item">Assisted in designing a musculoskeletal model, using MATLAB, to enhance 3D spatial awareness</li>
-              <li class="list-group-item">Place holder</li>
-              </ul>
-            <p><a href="https://projects.ncsu.edu/project/bmeundergrad/" class="hvr-bounce-to-top" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Biomedical Engineering</a></p>
+            <div class="col-md-4 col-xs-4">Nerds</div>
+            <div class="col-md-4 col-xs-4">Friends </div>
+            <div class="col-md-4 col-xs-4">Fun </div>
+            <div class="col-md-12 col-xs-12 text-justify"> I got introduced to scuba diving my freshman year of college and I was hooked. Growing up I was always a swimmer, but scuba is a different animal. You have to learn to let go, relax, don’t fight the water (it’ll win), and enjoy the freedom. The freedom from gravity, the freedom from surface pressures, the freedom from everyday stresses. Enjoy the peaceful quiet of the ocean.
+                On the other hand for my rescue diver certification...
+            </div>
+            </p>
+            <p><a href="http://mythsandmongrels.com/" class="hvr-bounce-to-top" target="_blank" style="color: white; padding:10px; border-style: solid; border-color: #CC0000; ">Myths & Mongrels</a></p>
           </div>
+
         </div>
       </div>
     </div>
 
-
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    AOS.init({
+      duration: 600;
+    });
+  </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11./jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/my.js"></script>
+    <script src="js/My.js"></script>
   </body>
 </html>
